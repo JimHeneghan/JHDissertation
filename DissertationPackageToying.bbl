@@ -1,0 +1,421 @@
+\begin{thebibliography}{10}
+
+\bibitem{Caldwell:14}
+Joshua~D. Caldwell, Andrey~V. Kretinin, Yiguo Chen, Vincenzo Giannini,
+  Michael~M. Fogler, Yan Francescato, Chase~T. Ellis, Joseph~G. Tischler,
+  Colin~R. Woods, Alexander~J. Giles, Minghui Hong, Kenji Watanabe, Takashi
+  Taniguchi, Stefan~A. Maier, and Kostya~S. Novoselov.
+\newblock Sub-diffractional volume-confined polaritons in the natural
+  hyperbolic material hexagonal boron nitride.
+\newblock {\em Nat. Commun.}, 5(1):5221, 2014.
+
+\bibitem{Ricker:43}
+Norman Ricker.
+\newblock Further developments in the wavelet theory of seismogram structure.
+\newblock {\em Bulletin of the Seismological Society of America},
+  33(3):197--228, 1943.
+
+\bibitem{Merewether:80}
+DE~Merewether, R~Fisher, and FW~Smith.
+\newblock On implementing a numeric huygen's source scheme in a finite
+  difference program to illuminate scattering bodies.
+\newblock {\em IEEE Trans. Nucl. Sci.}, 27(6):1829--1833, 1980.
+
+\bibitem{Gvozdic:17}
+Branko~D Gvozdic and Dusan~Z Djurdjevic.
+\newblock Performance advantages of cpml over upml absorbing boundary
+  conditions in fdtd algorithm.
+\newblock {\em J. Electr. Eng.}, 68(1):47--53, 2017.
+
+\bibitem{Sacks:95}
+Zachary~S Sacks, David~M Kingsland, Robert Lee, and Jin-Fa Lee.
+\newblock A perfectly matched anisotropic absorber for use as an absorbing
+  boundary condition.
+\newblock {\em IEEE Trans. Antennas Propag.}, 43(12):1460--1463, 1995.
+
+\bibitem{Rumpf:20}
+{Raymond C. Rumpf}.
+\newblock {Formulation of Plane Wave Expansion Method, EMPossible}, 2020.
+\newblock [Online; accessed 7-July-2021].
+
+\bibitem{Kumar:15}
+Anshuman Kumar, Tony Low, Kin~Hung Fung, Phaedon Avouris, and Nicholas~X. Fang.
+\newblock Tunable light–matter interaction and the role of hyperbolicity in
+  graphene–hbn system.
+\newblock {\em Nano. Lett.}, 15(5):3172--3180, 2015.
+
+\bibitem{Jiang:18}
+Yuyu Jiang, Xiao Lin, Tony Low, Baile Zhang, and Hongsheng Chen.
+\newblock Group-velocity-controlled and gate-tunable directional excitation of
+  polaritons in graphene-boron nitride heterostructures.
+\newblock {\em Laser Photonics Rev.}, 12(5):1800049, 2018.
+
+\bibitem{Ciesielski:18}
+Arkadiusz Ciesielski, Lukasz Skowronski, Marek Trzcinski, Ewa Górecka, Paweł
+  Trautman, and Tomasz Szoplik.
+\newblock Evidence of germanium segregation in gold thin films.
+\newblock {\em Surf. Sci.}, 674:73--78, 2018.
+
+\bibitem{Sullivan:96}
+Dennis~M. Sullivan.
+\newblock Z-transform theory and the fdtd method.
+\newblock {\em IEEE Trans. Antennas Propag.}, 44(1):28--34, 1996.
+
+\bibitem{Sullivan:13}
+Dennis~M. Sullivan.
+\newblock {\em Electromagnetic Simulation Using the FDTD Method, Second
+  Edition}.
+\newblock Wiley, 2013.
+
+\bibitem{MacLeod:01}
+H.A. MacLeod.
+\newblock {\em Thin-Film Optical Filters}.
+\newblock CRC Press, 2001.
+
+\bibitem{Wan:16}
+Weiwei Wan, Xiaodong Yang, and Jie Gao.
+\newblock Strong coupling between mid-infrared localized plasmons and phonons.
+\newblock {\em Opt. Express}, 24(11):12367--12374, May 2016.
+
+\bibitem{peakfinding}
+{Peak positions were initially found using a naive peak finding algorithm that
+  sequentially determined all local maxima. This procedure was validated by
+  comparing to a fit to multiple Gaussian functions, although the latter
+  approach would fail in regions where multiple peaks and shoulders were close
+  in frequency. In the case of the inflections in the vacinity of the TO
+  frequency side peaks or shoulders were determined by calculating the second
+  derivative of the spectrum; the resulting curve was then multiplied by -1 and
+  the above peak finding algoritm reapplied.}
+
+\bibitem{Wood:1902}
+R.~W. Wood.
+\newblock On a remarkable case of uneven distribution of light in a diffraction
+  grating spectrum.
+\newblock {\em Lond. Edinb. Dublin Philos. Mag. J. Sci.}, 4:396–402, 1902.
+
+\bibitem{Rayleigh:1907}
+L.~Rayleigh.
+\newblock On the dynamical theory of gratings.
+\newblock {\em Proc. R. Soc. Lond. A.}, 79:399–416, 1907.
+
+\bibitem{Gao:2009}
+H.~Gao, J.~M. McMahon, M.~H. Lee, J.~Henzie, S.~K. Gray, G.~C. Schatz, and
+  T.~W. Odom.
+\newblock Rayleigh anomaly-surface plasmon polariton resonances in palladium
+  and gold subwavelength hole arrays.
+\newblock {\em Opt. Express}, 17:2334–2340, 2009.
+
+\bibitem{Klein:2014}
+Angela~E. Klein, Norik Janunts, Michael Steinert, Andreas T\"unnermann, and
+  Thomas Pertsch.
+\newblock Polarization-resolved near-field mapping of plasmonic aperture
+  emission by a dual-snom system.
+\newblock {\em Nano. Lett.}, 14:5010–5015, 2014.
+
+\bibitem{Dai:14}
+S~Dai, Z~Fei, Q~Ma, AS~Rodin, M~Wagner, AS~McLeod, MK~Liu, W~Gannett, W~Regan,
+  and K~Watanabe.
+\newblock Tunable phonon polaritons in atomically thin van der waals crystals
+  of boron nitride.
+\newblock {\em Science}, 343(6175):1125--1129, 2014.
+
+\bibitem{Note1}
+D.J.T Heneghan, W. M. Dennis,2021, \protect \emph {Journal TBD}, Vol. TBD, No.
+  TBD. \indent \indent Reprinted here with permission of publisher and authors.
+
+\bibitem{Tolpygo:50}
+KB~Tolpygo.
+\newblock Physical properties of a rock salt lattice made up of deformable
+  ions.
+\newblock {\em Zh. Eksp. Teor. Fiz.}, 20:497--509, 1950.
+
+\bibitem{Huang:51}
+K.~U.~N. Huang.
+\newblock Lattice vibrations and optical waves in ionic crystals.
+\newblock {\em Nature}, 167(4254):779--780, 1951.
+
+\bibitem{Huber:08}
+A.~J. Huber, B.~Deutsch, L.~Novotny, and R.~Hillenbrand.
+\newblock Focusing of surface phonon polaritons.
+\newblock {\em Appl. Phys. Lett.}, 92(20):203104, 2008.
+
+\bibitem{Barnes:03}
+William~L. Barnes, Alain Dereux, and Thomas~W. Ebbesen.
+\newblock Surface plasmon subwavelength optics.
+\newblock {\em Nature}, 424(6950):824--830, 2003.
+
+\bibitem{Ritchie:57}
+R.~H. Ritchie.
+\newblock Plasma losses by fast electrons in thin films.
+\newblock {\em Phys. Rev.}, 106(5):874--881, 1957.
+
+\bibitem{Pines:52}
+David Pines and David Bohm.
+\newblock A collective description of electron interactions: {II.} collective
+  vs individual particle aspects of the interactions.
+\newblock {\em Phys. Rev.}, 85(2):338--353, 1952.
+
+\bibitem{Pendry:99}
+John Pendry.
+\newblock Playing tricks with light.
+\newblock {\em Science}, 285(5434):1687--1688, 1999.
+
+\bibitem{Silva:12}
+R.~Estevâm~da Silva, R.~Macêdo, T.~Dumelow, J.~A.~P. da~Costa, S.~B.
+  Honorato, and A.~P. Ayala.
+\newblock Far-infrared slab lensing and subwavelength imaging in crystal
+  quartz.
+\newblock {\em Phys. Rev, B}, 86(15):155152, 2012.
+
+\bibitem{Fang:05}
+Nicholas Fang, Hyesog Lee, Cheng Sun, and Xiang Zhang.
+\newblock Sub-diffraction-limited optical imaging with a silver superlens.
+\newblock {\em Science}, 308(5721):534--537, 2005.
+
+\bibitem{Kneipp:97}
+Katrin Kneipp, Yang Wang, Harald Kneipp, Lev~T Perelman, Irving Itzkan,
+  Ramachandra~R Dasari, and Michael~S Feld.
+\newblock Single molecule detection using surface-enhanced raman scattering
+  (sers).
+\newblock {\em Phys. Rev. Lett.}, 78(9):1667, 1997.
+
+\bibitem{Talley:05}
+Chad~E Talley, Joseph~B Jackson, Chris Oubre, Nathaniel~K Grady, Christopher~W
+  Hollars, Stephen~M Lane, Thomas~R Huser, Peter Nordlander, and Naomi~J Halas.
+\newblock Surface-enhanced raman scattering from individual au nanoparticles
+  and nanoparticle dimer substrates.
+\newblock {\em Nano. Lett.}, 5(8):1569--1574, 2005.
+
+\bibitem{Rodrigo:15}
+Daniel Rodrigo, Odeta Limaj, Davide Janner, Dordaneh Etezadi, F.~Javier
+  García~de Abajo, Valerio Pruneri, and Hatice Altug.
+\newblock Mid-infrared plasmonic biosensing with graphene.
+\newblock {\em Science}, 349(6244):165--168, 2015.
+
+\bibitem{Fali:19}
+Alireza Fali, Samuel~T. White, Thomas~G. Folland, Mingze He, Neda~A. Aghamiri,
+  Song Liu, James~H. Edgar, Joshua~D. Caldwell, Richard~F. Haglund, and
+  Yohannes Abate.
+\newblock Refractive index-based control of hyperbolic phonon-polariton
+  propagation.
+\newblock {\em Nano. Lett.}, 19(11):7725--7734, 2019.
+
+\bibitem{Chang:06}
+DE~Chang, Anders~Søndberg Sørensen, PR~Hemmer, and MD~Lukin.
+\newblock Quantum optics with surface plasmons.
+\newblock {\em Phys. Rev. Lett.}, 97(5):053002, 2006.
+
+\bibitem{Gonzalez-Tudela:11}
+A~Gonzalez-Tudela, Diego Martin-Cano, Esteban Moreno, Luis Martin-Moreno,
+  C~Tejedor, and Francisco~J Garcia-Vidal.
+\newblock Entanglement of two qubits mediated by one-dimensional plasmonic
+  waveguides.
+\newblock {\em Phys. Rev. Lett.}, 106(2):020501, 2011.
+
+\bibitem{Bhimanapati:15}
+Ganesh~R Bhimanapati, Zhong Lin, Vincent Meunier, Yeonwoong Jung, Judy Cha,
+  Saptarshi Das, Di~Xiao, Youngwoo Son, Michael~S Strano, and Valentino~R
+  Cooper.
+\newblock Recent advances in two-dimensional materials beyond graphene.
+\newblock {\em ACS Nano.}, 9(12):11509--11539, 2015.
+
+\bibitem{Koppens:11}
+Frank~HL Koppens, Darrick~E Chang, and F~Javier Garcia~de Abajo.
+\newblock Graphene plasmonics: a platform for strong light–matter
+  interactions.
+\newblock {\em Nano. Lett.}, 11(8):3370--3377, 2011.
+
+\bibitem{Biehs:12}
+S.~A. Biehs, M.~Tschikin, and P.~Ben-Abdallah.
+\newblock Hyperbolic metamaterials as an analog of a blackbody in the near
+  field.
+\newblock {\em Phys. Rev. Lett.}, 109(10):104301, 2012.
+
+\bibitem{Guo:12}
+Yu~Guo, Ward Newman, Cristian~L Cortes, and Zubin Jacob.
+\newblock Applications of hyperbolic metamaterial substrates.
+\newblock {\em Adv. OptoElectron.}, 2012.
+
+\bibitem{Cortes:12}
+C.~L. Cortes, W.~Newman, S.~Molesky, and Z.~Jacob.
+\newblock Quantum nanophotonics using hyperbolic metamaterials.
+\newblock {\em J. Opt.}, 14(6):063001, 2012.
+
+\bibitem{Bonaccorso:10}
+F.~Bonaccorso, Z.~Sun, T.~Hasan, and A.~C. Ferrari.
+\newblock Graphene photonics and optoelectronics.
+\newblock {\em Nat. Photon.}, 4(9):611--622, 2010.
+
+\bibitem{Jacob:12}
+Zubin Jacob, Igor~I. Smolyaninov, and Evgenii~E. Narimanov.
+\newblock Broadband purcell effect: Radiative decay engineering with
+  metamaterials.
+\newblock {\em Appl. Phys. Lett.}, 100(18):181105, 2012.
+
+\bibitem{Liu:07}
+Zhaowei Liu, Hyesog Lee, Yi~Xiong, Cheng Sun, and Xiang Zhang.
+\newblock Far-field optical hyperlens magnifying sub-diffraction-limited
+  objects.
+\newblock {\em Science}, 315(5819):1686--1686, 2007.
+
+\bibitem{Kretinin:14}
+A.~V. Kretinin, Y.~Cao, J.~S. Tu, G.~L. Yu, R.~Jalil, K.~S. Novoselov, S.~J.
+  Haigh, A.~Gholinia, A.~Mishchenko, M.~Lozada, T.~Georgiou, C.~R. Woods,
+  F.~Withers, P.~Blake, G.~Eda, A.~Wirsig, C.~Hucho, K.~Watanabe, T.~Taniguchi,
+  A.~K. Geim, and R.~V. Gorbachev.
+\newblock Electronic properties of graphene encapsulated with different
+  two-dimensional atomic crystals.
+\newblock {\em Nano. Lett.}, 14(6):3270--3276, 2014.
+
+\bibitem{Dean:10}
+C.~R. Dean, A.~F. Young, I.~Meric, C.~Lee, L.~Wang, S.~Sorgenfrei, K.~Watanabe,
+  T.~Taniguchi, P.~Kim, K.~L. Shepard, and J.~Hone.
+\newblock Boron nitride substrates for high-quality graphene electronics.
+\newblock {\em Nat. Nanotechnol.}, 5(10):722--726, 2010.
+
+\bibitem{Dean:13}
+C.~R. Dean, L.~Wang, P.~Maher, C.~Forsythe, F.~Ghahari, Y.~Gao, J.~Katoch,
+  M.~Ishigami, P.~Moon, M.~Koshino, T.~Taniguchi, K.~Watanabe, K.~L. Shepard,
+  J.~Hone, and P.~Kim.
+\newblock Hofstadter’s butterfly and the fractal quantum hall effect in
+  moiré superlattices.
+\newblock {\em Nature}, 497(7451):598--602, 2013.
+
+\bibitem{Hunt:13}
+B.~Hunt, J.~D. Sanchez-Yamagishi, A.~F. Young, M.~Yankowitz, B.~J. LeRoy,
+  K.~Watanabe, T.~Taniguchi, P.~Moon, M.~Koshino, P.~Jarillo-Herrero, and R.~C.
+  Ashoori.
+\newblock Massive dirac fermions and hofstadter butterfly in a van der waals
+  heterostructure.
+\newblock {\em Science}, 340(6139):1427--1430, 2013.
+
+\bibitem{Yu:14}
+G.~L. Yu, R.~V. Gorbachev, J.~S. Tu, A.~V. Kretinin, Y.~Cao, R.~Jalil,
+  F.~Withers, L.~A. Ponomarenko, B.~A. Piot, M.~Potemski, D.~C. Elias, X.~Chen,
+  K.~Watanabe, T.~Taniguchi, I.~V. Grigorieva, K.~S. Novoselov, V.~I. Fal’ko,
+  A.~K. Geim, and A.~Mishchenko.
+\newblock Hierarchy of hofstadter states and replica quantum hall
+  ferromagnetism in graphene superlattices.
+\newblock {\em Nat. Phys.}, 10(7):525--529, 2014.
+
+\bibitem{Haldane:08}
+F.~D.~M. Haldane and S.~Raghu.
+\newblock Possible realization of directional optical waveguides in photonic
+  crystals with broken time-reversal symmetry.
+\newblock {\em Phys. Rev. Lett.}, 100(1):013904, 2008.
+
+\bibitem{Raghu:08}
+S.~Raghu and F.~D.~M. Haldane.
+\newblock Analogs of quantum-hall-effect edge states in photonic crystals.
+\newblock {\em Phys. Rev. A}, 78(3):033834, 2008.
+
+\bibitem{Chen:19}
+Guorui Chen, Aaron~L. Sharpe, Patrick Gallagher, Ilan~T. Rosen, Eli~J. Fox,
+  Lili Jiang, Bosai Lyu, Hongyuan Li, Kenji Watanabe, Takashi Taniguchi, Jeil
+  Jung, Zhiwen Shi, David Goldhaber-Gordon, Yuanbo Zhang, and Feng Wang.
+\newblock Signatures of tunable superconductivity in a trilayer graphene moiré
+  superlattice.
+\newblock {\em Nature}, 572(7768):215--219, 2019.
+
+\bibitem{Chen:20}
+Guorui Chen, Aaron~L. Sharpe, Eli~J. Fox, Ya-Hui Zhang, Shaoxin Wang, Lili
+  Jiang, Bosai Lyu, Hongyuan Li, Kenji Watanabe, Takashi Taniguchi, Zhiwen Shi,
+  T.~Senthil, David Goldhaber-Gordon, Yuanbo Zhang, and Feng Wang.
+\newblock Tunable correlated chern insulator and ferromagnetism in a moiré
+  superlattice.
+\newblock {\em Nature}, 579(7797):56--61, 2020.
+
+\bibitem{Novoselov:16}
+K.~S. Novoselov, A.~Mishchenko, A.~Carvalho, and A.~H. Castro~Neto.
+\newblock 2d materials and van der waals heterostructures.
+\newblock {\em Science}, 353(6298):aac9439, 2016.
+
+\bibitem{Geim:13}
+A.~K. Geim and I.~V. Grigorieva.
+\newblock Van der waals heterostructures.
+\newblock {\em Nature}, 499(7459):419--425, 2013.
+
+\bibitem{Woessner:15}
+Achim Woessner, Mark~B. Lundeberg, Yuanda Gao, Alessandro Principi, Pablo
+  Alonso-González, Matteo Carrega, Kenji Watanabe, Takashi Taniguchi, Giovanni
+  Vignale, Marco Polini, James Hone, Rainer Hillenbrand, and Frank H.~L.
+  Koppens.
+\newblock Highly confined low-loss plasmons in graphene–boron nitride
+  heterostructures.
+\newblock {\em Nat. Mater.}, 14(4):421--425, 2015.
+
+\bibitem{Zhao:17}
+Bo~Zhao and Zhuomin~M. Zhang.
+\newblock Perfect mid-infrared absorption by hybrid phonon-plasmon polaritons
+  in hbn/metal-grating anisotropic structures.
+\newblock {\em Int. J. Heat Mass Transf.}, 106:1025--1034, 2017.
+
+\bibitem{Yang:20}
+Jiong Yang, Mohannad Mayyas, Jianbo Tang, Mohammad~B. Ghasemian, Honghua Yang,
+  Kenji Watanabe, Takashi Taniguchi, Qingdong Ou, Lu~Hua Li, Qiaoliang Bao, and
+  Kourosh Kalantar-Zadeh.
+\newblock Boundary-induced auxiliary features in scattering-type near-field
+  fourier transform infrared spectroscopy.
+\newblock {\em ACS Nano}, 14(1):1123--1132, 2020.
+
+\bibitem{Alfaro-Mozaz:17}
+F.~J. Alfaro-Mozaz, P.~Alonso-González, S.~Vélez, I.~Dolado, M.~Autore,
+  S.~Mastel, F.~Casanova, L.~E. Hueso, P.~Li, A.~Y. Nikitin, and
+  R.~Hillenbrand.
+\newblock Nanoimaging of resonating hyperbolic polaritons in linear boron
+  nitride antennas.
+\newblock {\em Nat. Commun.}, 8(1):15624, 2017.
+
+\bibitem{Autore:18}
+Marta Autore, Peining Li, Irene Dolado, Francisco~J. Alfaro-Mozaz, Ruben
+  Esteban, Ainhoa Atxabal, Fèlix Casanova, Luis~E. Hueso, Pablo
+  Alonso-González, Javier Aizpurua, Alexey~Y. Nikitin, Saül Vélez, and
+  Rainer Hillenbrand.
+\newblock Boron nitride nanoresonators for phonon-enhanced molecular
+  vibrational spectroscopy at the strong coupling limit.
+\newblock {\em Light Sci. Appl.}, 7(4):17172--17172, 2018.
+
+\bibitem{Folland:18}
+T.~G. Folland, A.~Fali, S.~T. White, J.~R. Matson, S.~Liu, N.~A. Aghamiri,
+  J.~H. Edgar, R.~F. Haglund, Y.~Abate, and J.~D. Caldwell.
+\newblock Reconfigurable infrared hyperbolic metasurfaces using phase change
+  materials.
+\newblock {\em Nat. Commun.}, 9(1):4371, 2018.
+
+\bibitem{Cheng:15}
+Fei Cheng, Xiaodong Yang, and Jie Gao.
+\newblock Ultrasensitive detection and characterization of molecules with
+  infrared plasmonic metamaterials.
+\newblock {\em Sci. Rep.}, 5(1):14327, 2015.
+
+\bibitem{Kane:66}
+Yee Kane.
+\newblock Numerical solution of initial boundary value problems involving
+  maxwell's equations in isotropic media.
+\newblock {\em IEEE Trans. Antennas Propag.}, 14(3):302--307, 1966.
+
+\bibitem{Taflove:05}
+A.~Taflove and S.C. Hagness.
+\newblock {\em Computational Electrodynamics: The Finite-difference Time-domain
+  Method}.
+\newblock Artech House, 2005.
+
+\bibitem{PGI:20}
+{PGI Compilers and Tools: OpenACC Getting Started Guide, NVIDIA}, 11/19/2020
+  2020.
+
+\bibitem{Palik:85}
+Edward~D. Palik.
+\newblock {\em Handbook of optical constants of solids}.
+\newblock Academic Press, Orlando, 1985.
+
+\bibitem{Sakurai:17}
+Jun~John Sakurai and Jim Napolitano.
+\newblock {\em Modern Quantum Mechanics}.
+\newblock Cambridge University Press, 2017.
+
+\bibitem{Note2}
+D.J.T Heneghan, W. M. Dennis,2021, \protect \emph {Journal TBD}, Vol. TBD, No.
+  TBD. \indent \indent Reprinted here with permission of publisher and authors.
+
+\end{thebibliography}

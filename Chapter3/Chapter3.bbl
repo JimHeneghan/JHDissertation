@@ -1,0 +1,398 @@
+%aipnum4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{26}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Shelby}, \citenamefont {Smith},\ and\ \citenamefont
+  {Schultz}(2001)}]{Shelby:01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Shelby}}, \bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont {Smith}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Schultz}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Experimental verification of
+  a negative index of refraction},}\ }\href
+  {https://doi.org/10.1126/science.1058847} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {292}},\ \bibinfo {pages}
+  {77--9} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}\ \emph {et~al.}(2021)\citenamefont {Yang},
+  \citenamefont {Wang}, \citenamefont {Yao}, \citenamefont {Lyu}, \citenamefont
+  {Zhu}, \citenamefont {Yang}, \citenamefont {Liu},\ and\ \citenamefont
+  {Ren}}]{Yang:21}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \bibinfo
+  {author} {\bibfnamefont {X.}~\bibnamefont {Yao}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Lyu}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Zhu}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Liu}},\ and\
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Ren}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Large-area plasmonic metamaterial with
+  thickness-dependent absorption},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Advanced Optical Materials}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {2001375} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cheng}, \citenamefont {Yang},\ and\ \citenamefont
+  {Gao}(2015)}]{Cheng:15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Cheng}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Yang}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gao}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Ultrasensitive detection and
+  characterization of molecules with infrared plasmonic metamaterials},}\
+  }\href {https://doi.org/10.1038/srep14327} {\bibfield  {journal} {\bibinfo
+  {journal} {Sci. Rep.}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {14327} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2010)\citenamefont {Liu},
+  \citenamefont {Mesch}, \citenamefont {Weiss}, \citenamefont {Hentschel},\
+  and\ \citenamefont {Giessen}}]{LiuNL:10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mesch}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Weiss}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Hentschel}},\ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Giessen}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Infrared perfect absorber and its application as plasmonic
+  sensor},}\ }\href {https://doi.org/10.1021/nl9041033} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume} {10}},\
+  \bibinfo {pages} {2342--2348} (\bibinfo {year} {2010})},\ \bibinfo {note}
+  {pMID: 20560590},\ \Eprint
+  {https://arxiv.org/abs/https://doi.org/10.1021/nl9041033}
+  {https://doi.org/10.1021/nl9041033} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shelton}\ \emph {et~al.}(2011)\citenamefont
+  {Shelton}, \citenamefont {Brener}, \citenamefont {Ginn}, \citenamefont
+  {Sinclair}, \citenamefont {Peters}, \citenamefont {Coffey},\ and\
+  \citenamefont {Boreman}}]{Shelton:11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Shelton}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Brener}},
+  \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont {Ginn}}, \bibinfo
+  {author} {\bibfnamefont {M.~B.}\ \bibnamefont {Sinclair}}, \bibinfo {author}
+  {\bibfnamefont {D.~W.}\ \bibnamefont {Peters}}, \bibinfo {author}
+  {\bibfnamefont {K.~R.}\ \bibnamefont {Coffey}},\ and\ \bibinfo {author}
+  {\bibfnamefont {G.~D.}\ \bibnamefont {Boreman}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Strong coupling between nanoscale metamaterials
+  and phonons},}\ }\href {https://doi.org/10.1021/nl200689z} {\bibfield
+  {journal} {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume}
+  {11}},\ \bibinfo {pages} {2104--2108} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2007)\citenamefont {Zhang},
+  \citenamefont {Wu}, \citenamefont {Sun},\ and\ \citenamefont
+  {Zhang}}]{Zhang:07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Sun}},\ and\ \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Zhang}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Artificial phonon-plasmon polariton at the interface of
+  piezoelectric metamaterials and semiconductors},}\ }\href
+  {https://doi.org/10.1103/PhysRevB.76.085318} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {76}},\ \bibinfo
+  {pages} {085318} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Benz}\ \emph {et~al.}(2015)\citenamefont {Benz},
+  \citenamefont {Campione}, \citenamefont {Klem}, \citenamefont {Sinclair},\
+  and\ \citenamefont {Brener}}]{Benz:15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Benz}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Campione}},
+  \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Klem}}, \bibinfo
+  {author} {\bibfnamefont {M.~B.}\ \bibnamefont {Sinclair}},\ and\ \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {Brener}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Control of strong light–matter coupling using
+  the capacitance of metamaterial nanocavities},}\ }\href
+  {https://doi.org/10.1021/nl504815c} {\bibfield  {journal} {\bibinfo
+  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo
+  {pages} {1959--1966} (\bibinfo {year} {2015})},\ \bibinfo {note} {pMID:
+  25625404},\ \Eprint {https://arxiv.org/abs/https://doi.org/10.1021/nl504815c}
+  {https://doi.org/10.1021/nl504815c} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Caldwell}\ \emph {et~al.}(2014)\citenamefont
+  {Caldwell}, \citenamefont {Kretinin}, \citenamefont {Chen}, \citenamefont
+  {Giannini}, \citenamefont {Fogler}, \citenamefont {Francescato},
+  \citenamefont {Ellis}, \citenamefont {Tischler}, \citenamefont {Woods},
+  \citenamefont {Giles}, \citenamefont {Hong}, \citenamefont {Watanabe},
+  \citenamefont {Taniguchi}, \citenamefont {Maier},\ and\ \citenamefont
+  {Novoselov}}]{Caldwell:14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Caldwell}}, \bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Kretinin}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Giannini}}, \bibinfo
+  {author} {\bibfnamefont {M.~M.}\ \bibnamefont {Fogler}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Francescato}}, \bibinfo {author}
+  {\bibfnamefont {C.~T.}\ \bibnamefont {Ellis}}, \bibinfo {author}
+  {\bibfnamefont {J.~G.}\ \bibnamefont {Tischler}}, \bibinfo {author}
+  {\bibfnamefont {C.~R.}\ \bibnamefont {Woods}}, \bibinfo {author}
+  {\bibfnamefont {A.~J.}\ \bibnamefont {Giles}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Hong}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont {S.~A.}\
+  \bibnamefont {Maier}},\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\
+  \bibnamefont {Novoselov}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Sub-diffractional volume-confined polaritons in the natural hyperbolic
+  material hexagonal boron nitride},}\ }\href
+  {https://doi.org/10.1038/ncomms6221} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {5221} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}\ \emph {et~al.}(2020)\citenamefont {Yang},
+  \citenamefont {Mayyas}, \citenamefont {Tang}, \citenamefont {Ghasemian},
+  \citenamefont {Yang}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Ou}, \citenamefont {Li}, \citenamefont {Bao},\ and\
+  \citenamefont {Kalantar-Zadeh}}]{Yang:20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mayyas}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Tang}}, \bibinfo {author}
+  {\bibfnamefont {M.~B.}\ \bibnamefont {Ghasemian}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Yang}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {Q.}~\bibnamefont {Ou}}, \bibinfo {author} {\bibfnamefont {L.~H.}\
+  \bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Bao}},\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kalantar-Zadeh}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Boundary-induced auxiliary features in scattering-type near-field fourier
+  transform infrared spectroscopy},}\ }\href
+  {https://doi.org/10.1021/acsnano.9b08895} {\bibfield  {journal} {\bibinfo
+  {journal} {ACS Nano}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages}
+  {1123--1132} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhao}\ and\ \citenamefont {Zhang}(2017)}]{Zhao:17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Zhao}}\ and\ \bibinfo {author} {\bibfnamefont {Z.~M.}\ \bibnamefont
+  {Zhang}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Perfect
+  mid-infrared absorption by hybrid phonon-plasmon polaritons in
+  hbn/metal-grating anisotropic structures},}\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.ijheatmasstransfer.2016.10.074}
+  {\bibfield  {journal} {\bibinfo  {journal} {Int. J. Heat Mass Transf.}\
+  }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages} {1025--1034} (\bibinfo
+  {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cheng}, \citenamefont {Yang},\ and\ \citenamefont
+  {Gao}(2014)}]{Cheng:14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Cheng}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Yang}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gao}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Enhancing intensity and refractive index
+  sensing capability with infrared plasmonic perfect absorbers},}\ }\href
+  {https://doi.org/10.1364/OL.39.003185} {\bibfield  {journal} {\bibinfo
+  {journal} {Opt. Lett.}\ }\textbf {\bibinfo {volume} {39}},\ \bibinfo {pages}
+  {3185--3188} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wan}, \citenamefont {Yang},\ and\ \citenamefont
+  {Gao}(2016)}]{Wan:16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Wan}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Yang}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gao}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Strong coupling between mid-infrared
+  localized plasmons and phonons},}\ }\href
+  {https://doi.org/10.1364/OE.24.012367} {\bibfield  {journal} {\bibinfo
+  {journal} {Opt. Express}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
+  {pages} {12367--12374} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{PGI(2020)}]{PGI:20}%
+  \BibitemOpen
+  \href {https://www.pgroup.com/resources/docs/20.1/pdf/openacc20_gs.pdf}
+  {\enquote {\bibinfo {title} {{PGI Compilers and Tools: OpenACC Getting
+  Started Guide, NVIDIA}},}\ } (\bibinfo {year} {2020})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ricker}(1943)}]{Ricker:43}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Ricker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Further
+  developments in the wavelet theory of seismogram structure},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Bulletin of the Seismological
+  Society of America}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages}
+  {197--228} (\bibinfo {year} {1943})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Merewether}, \citenamefont {Fisher},\ and\
+  \citenamefont {Smith}(1980)}]{Merewether:80}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Merewether}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Fisher}},\
+  and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Smith}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {On implementing a numeric huygen's
+  source scheme in a finite difference program to illuminate scattering
+  bodies},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {IEEE
+  Trans. Nucl. Sci.}\ }\textbf {\bibinfo {volume} {27}},\ \bibinfo {pages}
+  {1829--1833} (\bibinfo {year} {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gvozdic}\ and\ \citenamefont
+  {Djurdjevic}(2017)}]{Gvozdic:17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Gvozdic}}\ and\ \bibinfo {author} {\bibfnamefont {D.~Z.}\ \bibnamefont
+  {Djurdjevic}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Performance
+  advantages of cpml over upml absorbing boundary conditions in fdtd
+  algorithm},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J.
+  Electr. Eng.}\ }\textbf {\bibinfo {volume} {68}},\ \bibinfo {pages} {47--53}
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sacks}\ \emph {et~al.}(1995)\citenamefont {Sacks},
+  \citenamefont {Kingsland}, \citenamefont {Lee},\ and\ \citenamefont
+  {Lee}}]{Sacks:95}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.~S.}\ \bibnamefont
+  {Sacks}}, \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Kingsland}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Lee}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.-F.}\ \bibnamefont {Lee}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {A perfectly matched
+  anisotropic absorber for use as an absorbing boundary condition},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {IEEE Trans.
+  Antennas Propag.}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages}
+  {1460--1463} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ciesielski}\ \emph {et~al.}(2018)\citenamefont
+  {Ciesielski}, \citenamefont {Skowronski}, \citenamefont {Trzcinski},
+  \citenamefont {Górecka}, \citenamefont {Trautman},\ and\ \citenamefont
+  {Szoplik}}]{Ciesielski:18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Ciesielski}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Skowronski}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Trzcinski}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Górecka}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Trautman}},\ and\
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Szoplik}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Evidence of germanium segregation in
+  gold thin films},}\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.susc.2018.03.020} {\bibfield
+  {journal} {\bibinfo  {journal} {Surf. Sci.}\ }\textbf {\bibinfo {volume}
+  {674}},\ \bibinfo {pages} {73--78} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {MacLeod}(2001)}]{MacLeod:01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {MacLeod}},\ }\href {https://books.google.com/books?id=D0S9hxzPJq8C} {\emph
+  {\bibinfo {title} {Thin-Film Optical Filters}}}\ (\bibinfo  {publisher} {CRC
+  Press},\ \bibinfo {year} {2001})\BibitemShut {NoStop}%
+\bibitem [{pea()}]{peakfinding}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {note} {{Peak positions were initially found using a
+  naive peak finding algorithm that sequentially determined all local maxima.
+  This procedure was validated by comparing to a fit to multiple Gaussian
+  functions, although the latter approach would fail in regions where multiple
+  peaks and shoulders were close in frequency. In the case of the inflections
+  in the vacinity of the TO frequency side peaks or shoulders were determined
+  by calculating the second derivative of the spectrum; the resulting curve was
+  then multiplied by -1 and the above peak finding algoritm
+  reapplied.}}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Wood}(1902)}]{Wood:1902}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Wood}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On a remarkable
+  case of uneven distribution of light in a diffraction grating spectrum},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Lond. Edinb.
+  Dublin Philos. Mag. J. Sci.}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo
+  {pages} {396–402} (\bibinfo {year} {1902})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rayleigh}(1907)}]{Rayleigh:1907}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Rayleigh}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On the
+  dynamical theory of gratings},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proc. R. Soc. Lond. A.}\ }\textbf {\bibinfo {volume}
+  {79}},\ \bibinfo {pages} {399–416} (\bibinfo {year} {1907})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gao}\ \emph {et~al.}(2009)\citenamefont {Gao},
+  \citenamefont {McMahon}, \citenamefont {Lee}, \citenamefont {Henzie},
+  \citenamefont {Gray}, \citenamefont {Schatz},\ and\ \citenamefont
+  {Odom}}]{Gao:2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Gao}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {McMahon}},
+  \bibinfo {author} {\bibfnamefont {M.~H.}\ \bibnamefont {Lee}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Henzie}}, \bibinfo {author}
+  {\bibfnamefont {S.~K.}\ \bibnamefont {Gray}}, \bibinfo {author}
+  {\bibfnamefont {G.~C.}\ \bibnamefont {Schatz}},\ and\ \bibinfo {author}
+  {\bibfnamefont {T.~W.}\ \bibnamefont {Odom}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Rayleigh anomaly-surface plasmon polariton resonances in
+  palladium and gold subwavelength hole arrays},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Opt. Express}\ }\textbf {\bibinfo {volume}
+  {17}},\ \bibinfo {pages} {2334–2340} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Klein}\ \emph {et~al.}(2014)\citenamefont {Klein},
+  \citenamefont {Janunts}, \citenamefont {Steinert}, \citenamefont
+  {T\"unnermann},\ and\ \citenamefont {Pertsch}}]{Klein:2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Klein}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Janunts}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Steinert}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {T\"unnermann}},\ and\ \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Pertsch}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Polarization-resolved near-field mapping of
+  plasmonic aperture emission by a dual-snom system},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nano. Lett.}\ }\textbf {\bibinfo
+  {volume} {14}},\ \bibinfo {pages} {5010–5015} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dai}\ \emph {et~al.}(2014)\citenamefont {Dai},
+  \citenamefont {Fei}, \citenamefont {Ma}, \citenamefont {Rodin}, \citenamefont
+  {Wagner}, \citenamefont {McLeod}, \citenamefont {Liu}, \citenamefont
+  {Gannett}, \citenamefont {Regan},\ and\ \citenamefont {Watanabe}}]{Dai:14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Dai}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Fei}}, \bibinfo
+  {author} {\bibfnamefont {Q.}~\bibnamefont {Ma}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Rodin}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Wagner}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {McLeod}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Gannett}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Regan}},\
+  and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Tunable phonon polaritons in
+  atomically thin van der waals crystals of boron nitride},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {343}},\ \bibinfo {pages} {1125--1129} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kumar}\ \emph {et~al.}(2015)\citenamefont {Kumar},
+  \citenamefont {Low}, \citenamefont {Fung}, \citenamefont {Avouris},\ and\
+  \citenamefont {Fang}}]{Kumar:15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Low}}, \bibinfo
+  {author} {\bibfnamefont {K.~H.}\ \bibnamefont {Fung}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Avouris}},\ and\ \bibinfo {author}
+  {\bibfnamefont {N.~X.}\ \bibnamefont {Fang}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Tunable light–matter interaction and the role of
+  hyperbolicity in graphene–hbn system},}\ }\href
+  {https://doi.org/10.1021/acs.nanolett.5b01191} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano. Lett.}\ }\textbf {\bibinfo {volume} {15}},\
+  \bibinfo {pages} {3172--3180} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\end{thebibliography}%

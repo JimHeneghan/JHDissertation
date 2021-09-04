@@ -1,0 +1,108 @@
+\documentclass[reprint,
+amsmath,amssymb,
+aip,
+jap,
+floatfix,]{revtex4-2}
+
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{siunitx}
+\usepackage{xcolor, soul}
+
+\begin{document}
+
+\author{J. D. T. Heneghan}
+\email{dermoth@uga.edu}
+\author{W. M. Dennis}
+\email{drd@uga.edu}
+\affiliation{
+  Department of Physics and Astronomy,\\
+  University of Georgia,\\
+  Athens, GA 30602-2451, U.S.A.\\
+}
+
+\date{\today}
+
+
+	\chapter{An investigation of the coupling of phonon-polaritons with
+plasmon-polaritons in hBN/nanopatterned Au layered devices}
+
+	\begin{figure*}[!htb]
+	  \includegraphics[width=0.9\textwidth]{Figures/Fig1.pdf}
+	  \caption{(Color online) Schematic of the hBN/Au structure simulated in this work. (a) Planar view at the hBN/Au interface. (b) Cross-sectional view. CPML: Convolutional perfectly matched layer boundary conditions are imposed at the $z$- direction boundaries. Periodic boundary conditions are imposed at the $x$ and $y$ boundaries. The unit cell lengths in the $x$- and $y$- directions are $d_{x} $ and $d_{y}$, respectively. The layer thicknesses are $d_\mathrm{VAC} = 0.87\, \si{\um}$, $d_\mathrm{hBN} = 80\, \si{\nm}$, $d_\mathrm{SiO_{2}} = 1.0\, \si{\um}$, $d_\mathrm{Au} = 50\, \si{\nm}$. The length of the long segments of the cross pattern is $l = 0.8 \, d_{x} = 0.8 \, d_{y}$ while the width of the cross is  $w = 0.15 \, d_{x} = 0.15 \, d_{y}$. The distance between the centers of neighboring crosses is $d_\mathrm{CC} = d_{x} = d_{y}$. The directions of the $\bm{E}$-field, $\bm{H}$-Field and propagation vector $\bm{k}$ are shown in both panes.}
+	  \label{fig:1}
+	\end{figure*}
+		\section{Introduction}
+
+
+			The details of the principle nanopatterned structure simulated in this chapter are shown in Fig.~\ref{fig:1}. The structure was composed of an $80\, \si{\nm}$ sheet of hexagonal boron nitride (hBN) deposited on a $50\, \si{\nm}$ thick film of nanopatterned Au atop of a $\mathrm{SiO}_{2}$ substrate. The Au film was patterned with cross-shaped apertures. The aperture dimensions were $l = 0.8 \, d_\mathrm{CC}$ and $w = 0.15 \, d_\mathrm{CC}$, where $d_\mathrm{CC}$ was the model periodicity in the congruent $x$- and $y$- dimensions, which was varied during this work.
+		
+		\section{Results and Discussion}
+			\label{sec:R&D}
+			
+			\subsection{Far-Field Analysis}
+			\label{sec:FFA}
+
+				In order to investigate the effect of tuning the plasmon resonance through the hBN restrahlen band, a series of FDTD simulations were performed at a range of distances between the nearest neighbor centers of the crosses, (\textit{i.e.,} $d_\mathrm{CC}$ in the range 2.34 -- 3.94 $\si{\um}$) and the absorptance spectra for the bare device (BD), the uncoupled device I (UCDI) and the coupled device (CD) structures were calculated from the frequency resolved Poynting vector data collected by the planar DFT sensors described in \textcolor{cyan}{Section (insert reference)}.  Fig.~\ref{fig:2} shows the absorption spectra calculated for all three devices. As can be seen clearly in Fig.~\ref{fig:2} (a) and (b), for both the BD and UCDI, a red shift in the absorptance spectrum was observed as the value of $d_\mathrm{CC}$ was increased. Thus the absorptance feature due the plasmon resonance can be tuned with respect to the hBN restrahlen band and the coupling between plasmons in the nanostructured Au layer and phonon polaritons in the hBN layer investigated. As can be seen by comparing the spectra in Fig.~\ref{fig:2} (a) and (b), the absorption spectrum of the UCDI is slightly red shifted compared with that of the BD for a given $d_\mathrm{CC}$. The vertical dashed lines in  Fig.~\ref{fig:2} indicate the positions of the hBN TO and LO phonons at 1360 and 1614 $\mathrm{cm}^{-1}$, respectively. The absorption spectrum of an $80\,\si{\nm}$ thick free-standing hBN film \textcolor{cyan}{(Reference)} is resonant with the TO phonon frequency. As can be seen from Fig.~\ref{fig:2} (b), the UCDI structure with $d_\mathrm{CC} = 3.14\,\si{\um}$ exhibits a plasmon absorptance peak that is most closely resonant with the hBN TO phonon and this device is the one studied most extensively in this chapter.
+
+				Fig.~\ref{fig:2} (c) shows the absorption spectra for a series of CDs for a range of  $d_\mathrm{CC}$. Also shown in Fig.~\ref{fig:2} (c) is the absorptance spectrum of the UCDII with $d_\mathrm{CC} = 3.14\,\si{\um}$ (gray dotted line), which exhibits a single peak centered close to the hBN TO frequency. The most prominent effect observed in the CD is that the plasmon absorption spectra in UCDI split into two main peaks either side of the hBN TO phonon frequency, with the peaks for $d_\mathrm{CC} = 3.14\,\si{\um}$ device being shifted approximately equal amounts above and below the hBN TO phonon frequency.
+
+				Another notable feature that is observed in most of the absorptance spectra depicted in Fig.~\ref{fig:2} (c), is a small peak centered close to the hBN TO phonon frequency, which is also close to  the center of the absorptance peak of the non-plasmonic UCDII. Less obvious in these spectra, but also present are a series of small peaks and shoulders that lie between the hBN TO and LO frequencies, the nature of these latter features will be elucidated below.  
+
+				Finally, there are a series of cusps that occur in the spectra of all three devices, only one of which is shown in Fig.~\ref{fig:2}. This feature occurs at a frequency of $\sim 1750\,\mathrm{cm}^{-1}$ for all three $d_\mathrm{CC} = 3.94\,\si{\um}$ devices. The assignment of these latter features will be deferred until later in this chapter.
+
+				\begin{figure}[!htb]
+				  \centering\includegraphics[width=0.45\textwidth]{Figures/Fig2.pdf}
+				  \caption{(Color online) (a) The absorptance spectrum of the BD for a range of $d_\mathrm{CC}$ values. (b) The absorptance spectra of the UCDI. (c) The absorptance spectra of the CD. The gray dotted curve in pane (c) depicts the absorption spectra for the UCDII with $d_\mathrm{CC} = 3.14\,\si{\um}$.  The vertical black dashed lines in this figure indicate the position of the hBN TO and LO phonon frequencies as described in the main text.}
+				  \label{fig:2}
+				\end{figure}
+
+				In order to better analyze the absorptance peak frequency shifts observed in Fig.~\ref{fig:2}, the data in Fig.~\ref{fig:2}(b) and (c) were plotted in colormap form as a function of $\nu_\mathrm{bare}$ as prescribed in Wan \textit{et al.} \cite{Wan:16} in Fig.~\ref{fig:3}(a) and \ref{fig:3} (b) respectively. These plots can act as a proxy for the dispersion curves, although with some limitations. The peak positions in the absorptance spectra were determined using a simple peak fitting algorithm \cite{peakfinding} and plotted on top of the colormaps. In both Fig.\ref{fig:3} (a) and (b), the peaks in the spectra indicated by the orange, green and blue triangles are due to Rayleigh anomalies \cite{Wood:1902,Rayleigh:1907,Gao:2009} with indices (0,1), (1,1), (0,2), and their symmetric counterparts, respectively. The red squares in Fig.~\ref{fig:3}(a) indicate the main absorptance peak due to the plasmon-polariton in the UCDI. These peaks track linearly with $\nu_\mathrm{bare}$, the peak of the absorptance of corresponding BD and is analogous to the reflection data presented by Wan \textit{et al.} \cite{Wan:16} in their Fig. 3(a). The red squares in Fig.~\ref{fig:3}(b) show how the absorptance peak due to the plasmon-polariton in UCDI splits due to the interaction the bulk phonon-polariton in the hBN. The circles in Fig.~\ref{fig:3}(b) are interpreted as indicating slab phonon-polariton modes in the hBN layer; this interpretation will be further supported by the near-field data below.
+
+				\begin{figure}[!htb]
+				  \includegraphics[width=0.49\textwidth]{Figures/Fig3.pdf}
+				  \caption{(Color online) (a) Absorptance spectra for the UCDI vs the peak frequency of the BD ($\nu_\mathrm{bare}$) plotted as a color map. The symbols indicate the peaks in the absorptance spectra. The triangular symbols are due to Rayleigh anomalies, while the square symbols indicate the plasmon-polariton, which shifts linearly with $\nu_\mathrm{bare}$.
+				    (b) Absorptance spectra for the CD vs the peak frequency of the BD ($\nu_\mathrm{bare}$) plotted as a color map. The symbols indicate the peaks/shoulders in the absorptance spectra. The triangular symbols are due to Rayleigh anomalies, while the square symbols show the interaction between plasmon-polariton in the nanopatterned Au film and the bulk phonon-polariton in the hBN. The interpretation of the features labeled by the circular symbols are given in the main text.}
+				  \label{fig:3}
+				\end{figure}
+
+			\subsection{Near-Field Analysis}
+			\label{sec:NFA}
+				In order to gain insight into the coupling between the plasmon-polaritons in the nanopatterned Au and the phonon-polaritons in hBN film, the electric field distributions, $|\bm{E}|$, at the position of the vacuum/hBN interface were investigated for all four devices,  \textit{i.e.,} BD, UCDI, UCDII, and CD, as shown in Fig.~\ref{fig:4}. This position was selected as these field distributions are accessible to experimental techniques. In order to gain additional insight, the cross-sectional field maps (which are not accessible experimentally) are also shown in Fig.~\ref{fig:4} directly below the corresponding planar data. Fig.~\ref{fig:4} presents data after $y$-polarized excitation at three different frequencies, \textit{i.e.,} below the hBN restrahlen band at $\nu = 1200 \, \mathrm{cm}^{-1}$, within the hBN restrahlen band at $\nu = 1500 \, \mathrm{cm}^{-1}$ and above the restrahlen band at $\nu = 1700 \, \mathrm{cm}^{-1}$. The data excited at frequencies above and below the restrahlen band is expected to be predominantly plasmonic in nature for   BD, UCDI and CD; this is borne out by the data in Fig.~\ref{fig:4} (a)--(h) and (q) -- (x), respectively. In particular, in the case of the BD, there are field hot-spots at the inner corners of the cross pattern. In both the UCDI and CD, these hot spots are reproduced and smeared out; in the case of the CD this is due the presence of the  hBN capping layer. The UCDII exhibits no evidence of field hot-spot behavior as expected for a structure without a nanostructured metallic layer. It is noticeable that in all the above cases the only rapid variations in the field take place right at the boundary between the metal/dielectric cross and the enclosed vacuum. Based upon the above discussion, the field maps shown in panes (b) and (r) of Fig.~\ref{fig:4} are taken to be a prototypical signature of plasmonic behavior in the capped devices considered in this paper. In the case of the CD, see Fig.~\ref{fig:4} (d) and (t), the field maps are very similar to those depicted in Fig.~\ref{fig:4} (b) and (r), indicating that the behavior observed is predominately plasmonic when this device is excited either above or below the hBN restrahlen band.
+
+				Excitation of the above devices within the hBN restrahlen band at $\nu = 1500 \, \mathrm{cm}^{-1}$ reveals significantly different behavior. In the case of the BD and UCDI, the planar, Fig.~\ref{fig:4} (i) and (j), and cross-sectional field maps, Fig.~\ref{fig:4} (m) and (n), strongly resemble the plasmonic field maps excited outside the restrahlen band, in particular those excited at $\nu = 1700 \, \mathrm{cm}^{-1}$. The UCDII planar field map, Fig.~\ref{fig:4} (k), exhibited high spatial frequency variations in the $y$-direction in the region within the cross, although there is comparatively little high spatial frequency variation in the $x$-direction. This behavior is reproduced outside the cross, but at a noticeably different spatial frequency. An examination of the cross-sectional field map, Fig.~\ref{fig:4} (o), reveals that there is a guided slab mode within the hBN layer of this device. The CD planar field map, Fig.~\ref{fig:4} (l), exhibited high spatial frequency variations in both the $x$- and $y$-directions in the regions within and outside the cross. The contrast of these spatial variations is somewhat greater than that observed in Fig.~\ref{fig:4} (k). An examination of the cross-sectional field map, Fig.~\ref{fig:4} (p), also shows strong evidence of a guided mode within the hBN layer of this device. The high spatial frequency variation observed in the planar field maps and the guided mode behavior observed in the cross-sectional field maps is taken to be a prototypical signature of polaritonic behavior in the devices considered in this paper.
+
+				Two notable differences between the behavior of UCDII and the CD are as follows: (i) the contrast in the spatial field variation is a factor of $\sim 2-3$ times higher in the CD than the UCDII suggesting that the plasmon plays a role in coupling energy into the hBN phonon-polaritons. (ii) the spatial variation of the field in the $x$-direction in the CD, which is not present in the UCDII device, indicate that the plasmon also plays a key role in launching phonon-polaritons into different directions within the hBN layer.
+
+			\begin{figure}[!htb]
+			  \centering\includegraphics[width=0.49\textwidth]{Figures/Fig4.pdf}
+			  \caption{(Color online) Background subtracted and normalized planar and cross-sectional colormaps of the field magnitude for the BD, UCDI, UCDII, and CD with $d_\mathrm{CC} = 3.14 \, \si{\um}$.  Panes (a) -- (h) were excited below the restrahlen band at $\nu = 1200 \, \mathrm{cm}^{-1}$. The white lines in the planar colormaps panes (a) -- (d) indicate the location of the cross-sectional colormaps in (e) -- (h). Panes (i) -- (p) were excited in the restrahlen band at $\nu = 1500 \, \mathrm{cm}^{-1}$. The white lines in the planar colormaps panes (i) -- (l) indicate the location of the cross-sectional colormaps in (m) -- (p). Panes (q) -- (x) were excited above the restrahlen band at $\nu = 1700 \, \mathrm{cm}^{-1}$. The white lines in the planar colormaps panes (q) -- (t) indicate the location of the cross-sectional colormaps in (u) -- (x). 
+			  }
+			  \label{fig:4}
+			\end{figure}
+
+			For potential comparison to experiment, it is useful to analyze lineouts from field data of the type presented in Fig.~\ref{fig:4}. A series of lineouts for a CD with $d_\mathrm{CC} = 3.14 \, \si{\um}$ is shown in Fig.~\ref{fig:5} (a). The electric fields were frequency resolved in the range $\nu = 1490 - 1570 \, \mathrm{cm}^{-1}$. The position of the lineout is indicated by the white line in the insert of Fig.~\ref{fig:5} (b). Lineout data was only extracted outside of the cross region, \textit{i.e.,} where the hBN was supported by an Au layer. The peaks in $|\bm{E}|$ were determined using the peak fitting algorithm described above. A phonon-polariton wavelength was assigned by calculating the averages of the differences between successive peaks. These wavelengths were found to lie in the range $140 - 330 \, \si{\nm}$. These data were used to construct a dispersion curve as shown in Fig.~\ref{fig:5} (b). Additional insight can be obtained by examining the individual field components \cite{Klein:2014}, thus  a similar process was applied to the $E_y$ lineout data as shown in Fig.~\ref{fig:5} (c) and (d). As can be seen by comparing the plots in Fig.~\ref{fig:5} (b) and (d), the computed dispersion curves are similar although not identical, particularly at low values of $q$. 
+
+			\begin{figure}[!htb]
+			  \includegraphics[width=0.49\textwidth]{Figures/Fig5.pdf} 
+			  \caption{(Color online) (a) Lineouts of the magnitude of the electric field for a range of excitation frequencies in the restrahlen band $\nu = 1490 - 1570\, \mathrm{cm}^{-1}$. The circular dots indicate peaks in the lineout. (b) Dispersion curve constructed from the peak data in pane (a). (c) Lineouts of the $y$-component of the electric field for a range of excitation frequencies in the restrahlen band $\nu = 1490 - 1570\, \mathrm{cm}^{-1}$. The circular dots indicate peaks in the lineout. (d) Dispersion curve constructed from the peak data in pane (c).The inserts in panes (b) and (d) show the position of the lineouts in panes (a) and (c).
+			  }
+			  \label{fig:5}
+			\end{figure}	
+
+			Fig.~\ref{fig:6} (a) reproduces the far-field absorption spectrum from Fig.~\ref{fig:2} (c)  for convenient comparison with the near field data. Fig.~\ref{fig:6} (b) shows $E_y$ lineouts in the $y$-direction for frequencies in the range $\nu = 1000 - 1800\, \mathrm{cm}^{-1}$ at intervals of $1\, \mathrm{cm}^{-1}$. As can be seen from this figure, the region of highest field strength is in the vicinity of the inner Au|vacuum boundary within the cross (vacuum below the hBN layer), however features can be clearly resolved outside the cross (gold below the hBN layer). Broad features attributed to plasmons can be observed both below and above the restrahlen band; these features extend from inside the vacuum region into the gold region. Within the frequency range spanned by the restrahlen band, multiple branches can be observed in both the vacuum and Au regions. 
+
+			Fig.~\ref{fig:6} (c) shows the spatial Fourier transform of the (full spatial lineout) data described above. The resulting plot of $|E_y(q,\omega)|$ enables the phonon-polariton dispersion curves to be visualized. In order to aid the interpretation of the data in Fig.~\ref{fig:6} (c), theoretical phonon-polariton dispersion curves were calculated for a pair of three-layer thin-film structures: (i) Vacuum/hBN/Vacuum, and (ii) Vacuum/hBN/Au. The dispersion curves were calculated by finding the maxima of the imaginary part of the complex Fresnel reflection coefficient at real momenta as described in detail in the supplemental materials of the 2014 paper by Dai \textit{et al.} \cite{Dai:14}. The curves in green are for the  Vacuum/hBN/Vacuum structure, while the curves in red are for the Vacuum/hBN/Au structure. The dispersion curves calculated in this manner were in good agreement (in their region of overlapping validity, \textit{i.e.,} at high wavevector) with the dispersion curves calculated using the quasistatic approximation \cite{Dai:14, Kumar:15}, 
+			
+			\begin{align}
+			  q(\omega)   = & -  \frac{\Psi}{d_\mathrm{hBN}} \left[  
+			    \tan^{-1} \left\{ \frac{\varepsilon_0}{\varepsilon_{x,y}(\omega)\Psi} \right\} \right. \nonumber\\
+			     & +  \left. \tan^{-1} \left\{ \frac{\varepsilon_\mathrm{s}}{\varepsilon_{x,y}(\omega)\Psi} \right\} + n\pi \right],
+			  \label{DR}
+			\end{align}
+			\noindent where $\Psi = -i\sqrt{\varepsilon_z(\omega)/\varepsilon_{x,y}(\omega)}$ and $\varepsilon_{x,y,z}(\omega)$ are the components of the hBN dielectric tensor, $\bm{\varepsilon}_\mathrm{hBN}(\omega)$. $\varepsilon_\mathrm{s} = \varepsilon_0$, the permitivity of free space for the Vacuum/hBN/Vacuum structure and $\varepsilon_\mathrm{s} = \varepsilon_\mathrm{Au}(\omega)$ for the Vacuum/hBN/Au structure; $n$ is an integer and all other quantities are defined above. The advantage of Eq.~\ref{DR} is that it explicitly highlights that the phonon-polariton dispersion clearly has multiple branches, and that those branches are labelled by $n$.
+
+			
+\bibliography{hBNPaper.bib}
+\end{document}		

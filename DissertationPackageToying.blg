@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: DissertationPackageToying.aux
+Illegal, another \bibdata command---line 272 of file DissertationPackageToying.aux
+ : \bibdata
+ :         {DissertationPackageToyingNotes,dissertation.bib}
+I'm skipping whatever remains of this command
+The style file: unsrt.bst
+Database file #1: DissertationPackageToyingNotes.bib
+Warning--entry type for "Note1" isn't style-file defined
+--line 1 of file DissertationPackageToyingNotes.bib
+Warning--entry type for "Note2" isn't style-file defined
+--line 2 of file DissertationPackageToyingNotes.bib
+Database file #2: hBNPaper.bib.bib
+You've used 67 entries,
+            1791 wiz_defined-function locations,
+            895 strings with 17681 characters,
+and the built_in function-call counts, 17445 in all, are:
+= -- 1273
+> -- 1197
+< -- 0
++ -- 427
+- -- 360
+* -- 1559
+:= -- 2952
+add.period$ -- 193
+call.type$ -- 67
+change.case$ -- 59
+chr.to.int$ -- 0
+cite$ -- 67
+duplicate$ -- 587
+empty$ -- 1557
+format.name$ -- 360
+if$ -- 3704
+int.to.chr$ -- 0
+int.to.str$ -- 67
+missing$ -- 67
+newline$ -- 330
+num.names$ -- 63
+pop$ -- 135
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 214
+stack$ -- 0
+substring$ -- 1240
+swap$ -- 67
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 120
+width$ -- 69
+write$ -- 710
+(There was 1 error message)

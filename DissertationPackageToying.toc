@@ -1,0 +1,61 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{iii}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {}List of Tables}{iii}{}
+\contentsline {section}{\numberline {}List of Figures}{iii}{}
+\contentsline {section}{\numberline {I}Chapters}{2}{}
+\contentsline {section}{\numberline {II}Introduction}{2}{}
+\contentsline {section}{\numberline {III}FDTD Overview}{2}{}
+\contentsline {subsection}{\numberline {A}Generic explanation}{2}{}
+\contentsline {subsection}{\numberline {B}Types of Analysis done with FDTD}{2}{}
+\contentsline {subsection}{\numberline {C}Utility of FDTD}{2}{}
+\contentsline {subsubsection}{\numberline {1}Limits of FDTD}{2}{}
+\contentsline {section}{\numberline {IV}FDTD Adaptation}{2}{}
+\contentsline {section}{\numberline {V}Sources}{4}{}
+\contentsline {subsubsection}{\numberline {1}The Ricker Wavelet}{4}{}
+\contentsline {subsection}{\numberline {A}Point Sources}{4}{}
+\contentsline {subsection}{\numberline {B}TFSF Source}{4}{}
+\contentsline {section}{\numberline {VI}Boundary Conditions}{4}{}
+\contentsline {subsection}{\numberline {A}PEC Boundary}{4}{}
+\contentsline {subsection}{\numberline {B}Periodic Boundary}{4}{}
+\contentsline {subsubsection}{\numberline {1}Bloch Periodic Boundary}{5}{}
+\contentsline {subsection}{\numberline {C}Perfectly Matched Layers}{5}{}
+\contentsline {subsection}{\numberline {D}UPML}{5}{}
+\contentsline {subsection}{\numberline {E}CPML}{5}{}
+\contentsline {section}{\numberline {VII}Materials Models}{5}{}
+\contentsline {subsection}{\numberline {A}Isotropy}{5}{}
+\contentsline {subsubsection}{\numberline {1}Isotropic}{5}{}
+\contentsline {subsubsection}{\numberline {2}Anisotropic}{5}{}
+\contentsline {subsubsection}{\numberline {3}Diagonally Anisotropic}{5}{}
+\contentsline {subsection}{\numberline {B}Dielectric Materials}{5}{}
+\contentsline {subsection}{\numberline {C}Dispersive materials}{5}{}
+\contentsline {subsubsection}{\numberline {1}Z Transform}{5}{}
+\contentsline {subsubsection}{\numberline {2}Drude Model}{5}{}
+\contentsline {subsubsection}{\numberline {3}Debye Drude Model}{5}{}
+\contentsline {subsubsection}{\numberline {4}Lorentz}{5}{}
+\contentsline {subsubsection}{\numberline {5}Diagonally Anisotropic}{5}{}
+\contentsline {section}{\numberline {VIII}Sensors}{5}{}
+\contentsline {subsection}{\numberline {A}Time domain sensors}{5}{}
+\contentsline {subsection}{\numberline {B}Frequency Domain Sensors}{5}{}
+\contentsline {subsubsection}{\numberline {1}Heat Maps}{5}{}
+\contentsline {subsubsection}{\numberline {2}RTA Spectra}{5}{}
+\contentsline {section}{\numberline {IX}Analysis Tools}{5}{}
+\contentsline {subsection}{\numberline {A}Types}{5}{}
+\contentsline {subsubsection}{\numberline {1}Spectral}{5}{}
+\contentsline {subsubsection}{\numberline {2}Photonic Band}{5}{}
+\contentsline {subsubsection}{\numberline {3}Dispersion}{5}{}
+\contentsline {subsubsection}{\numberline {4}Heat Map}{5}{}
+\contentsline {subsection}{\numberline {B}Imaging}{5}{}
+\contentsline {subsection}{\numberline {C}Raster Dispersion}{5}{}
+\contentsline {section}{\numberline {X}Other Methods}{5}{}
+\contentsline {subsection}{\numberline {A}Transfer Matrix}{5}{}
+\contentsline {section}{\numberline {XI}Introduction}{5}{}
+\contentsline {section}{\numberline {XII}Results and Discussion}{5}{}
+\contentsline {subsection}{\numberline {A}Far-Field Analysis}{5}{}
+\contentsline {subsection}{\numberline {B}Near-Field Analysis}{6}{}
+\contentsline {section}{\numberline {XIII}Introduction}{11}{}
+\contentsline {section}{\numberline {XIV}Results and Discussion}{12}{}
+\contentsline {section}{\numberline {XV}Conclusion}{16}{}
+\contentsline {section}{\numberline {XVI}A Yet To Be Submitted Paper}{17}{}
+\contentsline {section}{\numberline {XVII}Standard section}{17}{}
+\appendix 

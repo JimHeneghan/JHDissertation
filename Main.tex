@@ -1,0 +1,159 @@
+\documentclass[
+reprint,
+amsmath,amssymb,
+aip,
+jap,
+floatfix,
+]{revtex4-2}
+
+\usepackage{graphicx}
+% \usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{siunitx}
+\usepackage{xcolor, soul}
+\usepackage{subfiles}
+
+
+
+\newcommand{\majorprof}{William Micheal Dennis} %Major Professor
+\newcommand{\proftwo}{Heinz Bernd Schuttler} %Committee Member 1
+\newcommand{\profthree}{Micheal Geller} %Committee Member 2
+\newcommand{\thesisyear}{2021} % Year of writing the thesis
+\newcommand{\yourname}{Dermot (Jim) Heneghan} % Your name as it should appear in the thesis
+\newcommand{\thesistitle}{Title of Jim Heneghan's Thesis} % Title of the Thesis
+\newcommand{\graddean}{Ron Walcott} % Name of current dean of the graduate school
+
+% \graphicspath{{Images/}}
+\begin{document}
+
+\input{abstract.tex}
+
+% Display the index words (this is a bit fancy):
+% \begin{list}{\sc Index words:\hfill}{\labelwidth 1.2in\leftmargin 1.4in\labelsep 0.2in}
+% \item
+% \begin{flushleft}
+% Put key words here for future searches. My own dissertation contained the following:
+% Finite-Difference Time-Domain, 
+% GPU Acceleration
+% \end{flushleft}
+% \end{list}
+
+
+% Make the official title page
+\newpage
+% \setcounter{page}{1}
+\pagenumbering{roman}
+\thispagestyle{empty}
+\vspace*{18pt}
+\begin{center}
+\textsc{\thesistitle}\\[18pt]
+by\\[18pt]
+\textsc{\yourname}\\[12pt]
+
+B.Sc., University of Limerick, 2008\\
+M.Sc., University of Limerick, 2011\\
+\vfill
+A Dissertation Submitted to the Graduate Faculty \\
+of The University of Georgia in Partial Fulfillment \\
+of the \\
+Requirements for the Degree \\[10pt]
+\textsc{Doctor of Philosophy}\\[36pt]
+\textsc{Athens, Georgia}\\[18pt]
+\thesisyear
+\end{center}
+
+% Make the copyright page
+\newpage
+\thispagestyle{empty}
+\vspace*{5.5in}
+\begin{center}
+\copyright~\thesisyear\ \\
+\yourname\\
+All Rights Reserved
+\end{center}
+
+% Make the approval page
+\newpage
+\thispagestyle{empty}
+\vspace*{18pt}
+\begin{center}
+%\textsc{High Velocity Cloud Interactions With\\ Their Ambient Environment}\\[18pt]
+\textsc{\thesistitle}\\[18pt]
+by\\[18pt]
+\textsc{\yourname}
+\end{center}
+%\vfill
+\vspace*{50pt}
+\begin{center}
+\hskip 48pt {Approved:}\\
+\vskip 12pt
+% Two major professors.  If you have only one, change word to "Professor".
+\hspace*{155pt}\makebox[100pt][l]{Major Professor:}\majorprof\\
+\vskip 12pt
+% Committee (use as many lines as needed)
+\hspace*{155pt}\makebox[100pt][l]{Committee:       }\proftwo\\
+\hspace*{155pt}\makebox[100pt][l]{~                }\profthree        \\
+\end{center}
+% Approval words - UNCOMMENT AFTER IT HAS BEEN APPROVED
+\vfill
+\begin{flushleft}
+Electronic Version Approved:\\[12pt]
+\graddean\\
+Dean of the Graduate School\\
+The University of Georgia\\
+May \thesisyear
+\end{flushleft}
+
+% Now we begin the regular LaTeX document.
+
+\chapter*{Dedication}
+%chapter* designates a chapter section that is numbered by roman numerals not Arabic numbers
+
+
+% \pseudochapter{Acknowledgments}
+%included in table of contents but no chapter number so use the term \pseudochapter
+
+%\pseudochapter{Preface}
+%If your thesis has a preface, this is where it goes.
+
+\tableofcontents % This is filled in later as some command collects the list of Chapters, Sections, Subsections, and more.
+
+
+\listoftables    % This if filled in later as some command collects the list of tables.
+\listoffigures   % This if filled in later as some command collects the list of figures.
+
+\newpage
+\pagenumbering{arabic}  % Ordinary pages have Arabic numerals.
+
+%This code is necessary if you want to use indents in paragraphs should be put before begin document
+%{
+%\raggedright
+%\parindent 0.25in
+%}
+
+
+\chapter{Introduction}
+
+   
+\section{Chapters}
+\label{sec:chap}
+
+
+% Document Body =========================================================== %
+% ------------------------------------------------------------------------- %
+% \subfile{Chapter2}
+% \subfile{Chapter3}
+% \subfile{subfiles/chapter2}
+% \subfile{subfiles/chapter3}
+% \subfile{subfiles/chapter4}
+% \subfile{subfiles/conclusion}
+% ------------------------------------------------------------------------- %
+% ========================================================================= %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Paper I (How to include a chapter that is already published %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{hBNPaper.bib}
+
+
+\end{document}
+

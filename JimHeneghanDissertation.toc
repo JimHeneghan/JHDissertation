@@ -1,0 +1,12 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Chapters}{1}
+\contentsline {chapter}{\numberline {2}An Investigation of the Polariton-Plasmon Coupling in hBN on Nanopatterned Ag Layered Structures}{2}
+\contentsline {section}{\numberline {2.1}Introduction}{3}
+\contentsline {section}{\numberline {2.2}Results and Discussion}{5}
+\contentsline {section}{\numberline {2.3}Conclusion}{14}
+\contentsline {chapter}{\numberline {3}Other Paper}{18}
+\contentsline {section}{\numberline {3.1}A Yet To Be Submitted Paper}{19}
+\contentsline {section}{\numberline {3.2}Standard section}{19}
+\contentsline {chapter}{\numberline {4}Conclusions}{20}
+\contentsline {chapter}{\numberline {A}Extra Parameters}{21}
